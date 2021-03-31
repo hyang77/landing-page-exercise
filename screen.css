@@ -9,8 +9,7 @@ a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
+dl, dt, dd, fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
@@ -30,9 +29,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-}
-ol, ul {
-	list-style: none;
 }
 blockquote, q {
 	quotes: none;
@@ -91,16 +87,29 @@ button {
 }
 
 .container {
-    margin-left: 10em;
-    margin-right: 10em;
+    padding-left: 10em;
+    padding-right: 10em;
+    margin-top: 2em;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-center {
+    text-align: center;
 }
 
 /* navigation */
 .nav-one {
+    padding-left: 10em;
+    padding-right: 10em;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    border-top: 10px solid rgb(241, 229, 53);
 }
 
 #header-logo {
@@ -124,6 +133,8 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    list-style: none outside none;
+    margin: 0;
 }
 
 .menu-item {
@@ -174,12 +185,199 @@ button {
 }
 
 .services p {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     padding-right: 30px;
     padding-left: 30px;
     border-right: 1px solid;
     color: rgb(4, 4, 179);
+    font-size: 12px;
+    font-weight: bold;
 }
+
+.text-content {
+    padding-bottom: 2em;
+    border-bottom: 2px solid rgb(241, 229, 53);
+    margin: 4em 10em;
+}
+
+.text-content div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+/* Benifits */
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    justify-content: center;
+}
+
+.fa-bolt {
+    padding: 15px;
+}
+
+.card {
+    width: 350px;
+    padding: 25px;;
+    margin: 10px;
+}
+
+.card-blue {
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+.card-grey {
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+
+/* photos */
+.photos {
+    margin: 3em 0;
+}
+
+/* service area */
+.service-area-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-area-container div {
+    width: 50%;
+}
+
+.service-area-container div h3 {
+    padding-top: 1.5em;
+}
+
+.other-service-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.other-service-cards p {
+    padding: 10px;
+    margin: 1em;
+    font-size: 10px;
+    color: rgb(4, 4, 179);
+    font-weight: bold;
+    width: 60px;
+}
+
+
+/* signup */
+.sign-up {
+    background-color: lightgrey;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+}
+
+.sign-up img {
+    width:40%;
+}
+
+.sign-up-text {
+    padding-left: 3em;
+}
+
+/* reviews */
+.reviews {
+    background-color: lightblue;
+    margin-top: 2em;
+}
+.review-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-container img {
+    padding: 3em;
+}
+
+.review-text {
+    width: 40%;
+    padding: 2.5em;
+}
+
+.review-text p:first-child {
+    color: rgb(4, 4, 179);
+}
+
+.review-text p:last-child {
+    font-weight: bold;
+}
+
+#typing {
+    width: 100%;
+}
+
+/* FAQ */
+.FAQ > div:first-child {
+    width: 30%;
+    margin-left: 10em;
+    margin-top: 2em;
+}
+
+.FAQ ul {
+    list-style: none outside none;
+    padding: 0;
+}
+
+.FAQ ul li {
+    padding: 8px;
+    font-weight: bold;
+}
+
+.FAQ > div:last-child {
+    width: 70%;
+}
+
+.questions-container div {
+    padding: 20px;
+    background: linear-gradient(rgb(252, 251, 251), lightgrey);
+}
+
+/* footer */
+footer {
+    border-top: 15px solid rgb(4, 4, 179);
+    border-bottom: 10px solid rgb(241, 229, 53);
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5em 10em;
+}
+
+footer p {
+    color: rgb(4, 4, 179);
+}
+
+.social-media-links {
+    padding: 1em 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(4, 4, 179);
+}
+
+
+
+
+
+
 
 

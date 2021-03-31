@@ -5,12 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="screen.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
     <title>Novec Energy Solutions</title>
   </head>
   <body>
     <header>
       <!-- navigation -->
-      <nav class="nav-one container">
+      <nav class="nav-one">
         <img src="./images/Novec-logo.png" alt="logo" id="header-logo" />
         <div>
           <div class="search-container">
@@ -60,12 +66,12 @@
           </div>
         </div>
         <div class="services">
-          <p>BILLING & PAYMENT</p>
-          <p>REPORT A PROBLEM</p>
-          <p>MOVING OR CANCELING SERVICE</p>
-          <p>SWITCHING SERVICE PROVIDERS</p>
+          <p>BILLING <span>& PAYMENT</span></p>
+          <p>REPORT<span>A PROBLEM</span></p>
+          <p>MOVING OR<span>CANCELING SERVICE</span></p>
+          <p>SWITCHING SERVICE <span>PROVIDERS</span></p>
         </div>
-        <div class="text-content">
+        <div class="text-content flex-row">
           <div>
             <h1>H1. HEADLINE 1 STYLING AND SPACING</h1>
             <h2>H2. HEADLINE 2 STYLING & SPACING</h2>
@@ -89,110 +95,129 @@
         </div>
       </section>
       <!-- section: benefits -->
-      <section class="benefits">
-        <h1>BENEFITS OF BUYING NATURAL GAS THROUGH NOVEC</h1>
-        <div class="card">
-          <img alt="thunder-icon" />
-          <div>
-            <h3>BENEFIT #1</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation.
-            </p>
+      <section class="benefits container">
+        <h1 class="text-center">
+          BENEFITS OF BUYING NATURAL <span>GAS THROUGH NOVEC</span>
+        </h1>
+        <div class="card-container">
+          <div class="card flex-row card-grey">
+            <div><i class="fas fa-bolt"></i></div>
+            <div>
+              <h2>BENEFIT #1</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation.
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <img alt="thunder-icon" />
-          <div>
-            <h3>BENEFIT #2</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation.
-            </p>
+          <div class="card flex-row card-blue">
+            <div><i class="fas fa-bolt"></i></div>
+            <div>
+              <h2>BENEFIT #2</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation.
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <img alt="thunder-icon" />
-          <div>
-            <h3>BENEFIT #3</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation.
-            </p>
+          <div class="card flex-row card-blue">
+            <div><i class="fas fa-bolt"></i></div>
+            <div>
+              <h2>BENEFIT #3</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation.
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <img alt="thunder-icon" />
-          <div>
-            <h3>BENEFIT #4</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation.
-            </p>
+          <div class="card flex-row card-grey">
+            <div><i class="fas fa-bolt"></i></div>
+            <div>
+              <h2>BENEFIT #4</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation.
+              </p>
+            </div>
           </div>
         </div>
       </section>
       <!-- section: photos -->
-      <section class="photos">
-        <img src="./images/thermostat.png" alt="thermostat" />
-        <img src="./images/family01.png" alt="family" />
+      <section class="photos flex-row">
+        <img src="./images/thermostat.png" alt="thermostat" width="50%" />
+        <img src="./images/family01.png" alt="family" width="50%" />
       </section>
       <!-- section: service-area -->
       <section class="service-area">
-        <h1>NATURAL GAS SERVICE AREA</h1>
-        <div class="area-container">
-          <img src="./images/map.png" alt="map" />
+        <h1 class="text-center">NATURAL GAS SERVICE AREA</h1>
+        <div class="service-area-container container">
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <h3>OTHER SERVICES</h3>
+            <div class="other-service-cards">
+              <p class="card-blue">OTHER SERVICES</p>
+              <p class="card-blue">OTHER SERVICES</p>
+              <p class="card-blue">OTHER SERVICES</p>
+              <p class="card-blue">OTHER SERVICES</p>
+            </div>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation.</p>
+            <button type="submit">CTA</button>
+          </div>
+
+          <div>
+            <img src="./images/map.png" alt="map" width="100%" />
+          </div>
+        </div>
+      </section>
+      <!-- section: sign-up -->
+      <section class="sign-up flex-row container">
+        <img
+          src="./images/family02.png"
+          alt="family photo"
+          id="family01"
+        />
+        <div class="sign-up-text">
+          <h2>H2. HEADLINE 2 STYLING<span>& SPACING</span></h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. exercitation ullamco laboris nisi
-            ut aliquip ex ea commodo consequat.
+            aliquip ex ea commodo consequat. Duis aute irure dolor.
           </p>
-          <h4>OTHER SERVICES</h4>
-          <div class="other-services-container">
-            <div>OTHER SERVICES</div>
-            <div>OTHER SERVICES</div>
-            <div>OTHER SERVICES</div>
-            <div>OTHER SERVICES</div>
-          </div>
-          <p>Ut enim ad minim veniam, quis nostrud exercitation.</p>
-          <button type="submit">CTA</button>
+          <ul>
+            <li>Lorem ipsum dolor sit amet, consectetur</li>
+            <li>Lorem ipsum dolor sit amet, consectetur</li>
+            <li>Lorem ipsum dolor sit amet, consectetur</li>
+            <li>Lorem ipsum dolor sit amet, consectetur</li>
+          </ul>
+          <button type="submit">SIGN UP</button>
         </div>
       </section>
-      <!-- section: sign-up -->
-      <section class="sign-up">
-        <img src="./images/family02.png" alt="family photo" />
-        <h2>H2. HEADLINE 2 STYLING & SPACING</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor.
-        </p>
-        <ul>
-          <li>Lorem ipsum dolor sit amet, consectetur</li>
-          <li>Lorem ipsum dolor sit amet, consectetur</li>
-          <li>Lorem ipsum dolor sit amet, consectetur</li>
-          <li>Lorem ipsum dolor sit amet, consectetur</li>
-        </ul>
-        <button type="submit">SIGN UP</button>
-      </section>
       <!-- section: rate -->
-      <section class="rate">
-        <h1>FIXED RATE VS VARIABLE RATE GAS PRICES WHAT TO KNOW</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor.
-        </p>
-        <div class="rate-card">
-          <h4>FIXED RATE</h4>
+      <section class="rate card-container container">
+        <div class="card">
+          <h1>FIXED RATE VS VARIABLE RATE GAS PRICES WHAT TO KNOW</h1>
+        </div>
+        <div class="card">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor.
+          </p>
+        </div>
+        <div class="card card-blue">
+          <h3>FIXED RATE</h3>
           <ul>
             <li>Lorem ipsum dolor sit amet, consectetur</li>
             <li>Lorem ipsum dolor sit amet, consectetur</li>
@@ -200,8 +225,8 @@
             <li>Lorem ipsum dolor sit amet, consectetur</li>
           </ul>
         </div>
-        <div class="rate-card">
-          <h4>VARIABLE RATE</h4>
+        <div class="card card-blue">
+          <h3>VARIABLE RATE</h3>
           <ul>
             <li>Lorem ipsum dolor sit amet, consectetur</li>
             <li>Lorem ipsum dolor sit amet, consectetur</li>
@@ -212,22 +237,26 @@
       </section>
       <!-- section: reviews -->
       <section class="reviews">
-        <img src="./images/reviewer.png" alt="reviewer" />
-        <p class="review-text">
-          “I have never had a bad experience with Novec and I have been a
-          customer of theirs since 1997. They recently processed a change of
-          service for me and whenever I call with a question, they are always
-          very helpful. I appreciate that in a service environment it isn’t
-          always easy dealing with people or their situations, but they do their
-          best.”
-        </p>
-        <p class="review-details">JIM SMITH, CUSTOMER SINCE 1997</p>
+        <div class="review-container container">
+          <img src="./images/reviewer.png" alt="reviewer" width="20%" />
+          <div class="review-text">
+            <p>
+              “I have never had a bad experience with Novec and I have been a
+              customer of theirs since 1997. They recently processed a change of
+              service for me and whenever I call with a question, they are
+              always very helpful. I appreciate that in a service environment it
+              isn’t always easy dealing with people or their situations, but
+              they do their best.”
+            </p>
+            <p class="review-details">JIM SMITH, CUSTOMER SINCE 1997</p>
+          </div>
+        </div>
       </section>
-      <img src="./images/typing.png" alt="typing" />
+      <img src="./images/typing.png" alt="typing" id="typing" />
       <!-- section: FAQ -->
-      <section class="FAQ">
+      <section class="FAQ flex-row">
         <div>
-          <h1>FREQUENTLY ASKED QUESTIONS</h1>
+          <h1>FREQUENTLY <span>ASKED</span> <span>QUESTIONS</span></h1>
           <ul>
             <li>FAQ CATEGORY</li>
             <li>FAQ CATEGORY</li>
@@ -236,23 +265,28 @@
           </ul>
         </div>
         <div class="questions-container">
-          <div>WHAT GAS COMPANY SERVICES MY ADDRESS?</div>
-          <div>CAN I SWITCH NATURAL GAS PROVIDERS?</div>
-          <div>HOW TO GET NATURAL GAS IN MY NEIGHBORHOODS?</div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation.
-          </p>
+          <div><h3>WHAT GAS COMPANY SERVICES MY ADDRESS?</h3></div>
+          <div><h3>CAN I SWITCH NATURAL GAS PROVIDERS?</h3></div>
+          <div>
+            <h3>HOW TO GET NATURAL GAS IN MY NEIGHBORHOODS?</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation.
+            </p>
+          </div>
         </div>
       </section>
     </main>
+    <!-- footer -->
     <footer>
-      <img src="./images/Novec-logo-1.png" alt="logo" />
+      <img src="./images/Novec-logo.png" alt="logo" />
       <div>
         <div class="social-media-links">
           <img src="./images/facebook.png" alt="facebook-icon" />
@@ -261,9 +295,9 @@
         </div>
         <p>&copy;2020 NOVEC | ALL RIGHTS RESERVED</p>
         <div class="useful-links">
-          <a href="#">PRIVACY & LEGAL STATEMENT</a>
-          <a href="#">SITE MAP</a>
-          <a href="#">CAREERS</a>
+          <a href="#">PRIVACY & LEGAL STATEMENT |</a>
+          <a href="#">SITE MAP |</a>
+          <a href="#">CAREERS |</a>
           <a href="#">NOVEC EN ESPAÑOL</a>
         </div>
       </div>
